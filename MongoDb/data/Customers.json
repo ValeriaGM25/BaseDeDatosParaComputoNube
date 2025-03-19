@@ -1,0 +1,54 @@
+[
+    {
+      "customer_id": 1,
+      "nombre": "Ana Gómez",
+      "email": "ana.gomez@ejemplo.com",
+      "telefono": "+34 612 345 678",
+      "direccion": {
+        "calle": "Calle Ficticia 123",
+        "ciudad": "Madrid",
+        "codigo_postal": "28001",
+        "pais": "España"
+      },
+      "fecha_registro": { "$date": "2024-01-15T00:00:00Z" },
+      "compras": [
+        { "producto": "Laptop", "cantidad": 1, "precio": 1200 },
+        { "producto": "Ratón inalámbrico", "cantidad": 2, "precio": 25 }
+      ]
+    },
+    {
+      "customer_id": 2,
+      "nombre": "Carlos Rodríguez",
+      "email": "carlos.rodriguez@ejemplo.com",
+      "telefono": "+34 612 987 654",
+      "direccion": {
+        "calle": "Avenida Central 45",
+        "ciudad": "Barcelona",
+        "codigo_postal": "08001",
+        "pais": "España"
+      },
+      "fecha_registro": { "$date": "2023-12-22T00:00:00Z" },
+      "compras": [
+        { "producto": "Smartphone", "cantidad": 1, "precio": 800 },
+        { "producto": "Auriculares", "cantidad": 1, "precio": 150 }
+      ]
+    },
+    {
+      "customer_id": 3,
+      "nombre": "Laura Martínez",
+      "email": "laura.martinez@ejemplo.com",
+      "telefono": "+34 610 123 456",
+      "direccion": {
+        "calle": "Plaza Mayor 10",
+        "ciudad": "Sevilla",
+        "codigo_postal": "41001",
+        "pais": "España"
+      },
+      "fecha_registro": { "$date": "2024-02-10T00:00:00Z" },
+      "compras": [
+        { "producto": "Tablet", "cantidad": 1, "precio": 400 },
+        { "producto": "Teclado inalámbrico", "cantidad": 1, "precio": 50 }
+      ]
+    }
+  ]
+  
